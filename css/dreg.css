@@ -1,0 +1,75 @@
+body {
+    background-image: url("Background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background-color: aliceblue;
+    font-family: "Audiowide", sans-serif;
+}
+input[type=text], select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 2px solid rgb(63, 55, 55);
+   border-radius: 10px;
+   box-sizing: border-box;
+   background: silver;
+   font-family:cursive;
+ }
+ input[type=password], select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 2px solid rgb(44, 41, 41);
+   border-radius: 10px;
+   box-sizing: border-box;
+   font-family:cursive;
+   background: silver;
+ }
+ button[type=submit], select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 30px;
+   box-sizing: border-box;
+   background-color: rgb(0, 255, 64);
+   font-family: "Audiowide", sans-serif;
+   font-size: 50px;
+   opacity: 1;
+ }
+ .btn-info{
+   color: white;
+ }
+ button:hover {
+  opacity: 0.5;
+}
+input[type=text]:hover {
+  opacity: 0.5;
+}
+input[type=password]:hover {
+  opacity: 0.5;
+}
+
+.link {
+   color: #666;
+   font-size: 15px;
+   text-align: center;
+   margin-bottom: 0px;
+}
+.link a {
+   color: #666;
+}
+h1 {
+   font-weight: normal;
+   text-align: center;
+   font-size: xx-large;
+}
